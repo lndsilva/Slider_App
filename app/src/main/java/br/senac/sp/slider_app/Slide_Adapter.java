@@ -53,6 +53,11 @@ public class Slide_Adapter extends PagerAdapter {
             Color.rgb(1, 188, 212),
     };
 
+    public Slide_Adapter(Context context){
+        this.context = context;
+
+    }
+
     @Override
     public int getCount() {
         return lst_titulo.length;
